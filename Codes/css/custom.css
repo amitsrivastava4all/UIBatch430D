@@ -1,0 +1,37 @@
+#container{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+#header{
+    background-color: #157ED2;
+}
+#logo{
+    width: 149px;
+    padding: 10px;
+    padding-left: 50px;
+}
+input[type="text"]{
+    width: 300px;
+}
+#left{
+    width: 30%;
+    float: left;
+}
+#center{
+    width: 50%;
+    float: left;
+}
+#right{
+    width: 15%;
+    float: left;
+}
+a{
+    color: green;
+}
+.bird{
+    background-image: url("https://cdn.tutsplus.com/webdesign/uploads/legacy/tuts/373_sprites/angry_birds.png");
+    background-position: -122px -107px;
+    width: 93px;
+    height: 118px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Simple Ajax Call Using Get</title>
+<style>
+#spinner
+{
+    display: none;
+    width:200px;
+    height: 200px;
+    position: fixed;
+    top: 7%;
+    left: 10%;
+    text-align:center;
+    margin-left: 5px;
+    margin-top: 5px;
+    z-index:2;
+    overflow: auto;
+}    
+</style>
+</head>
+<body>
+<div id="spinner">
+    <img id="loading" src="../images/ajax-loader.gif" alt="Loading..."/>
+</div>
+<div id="msgDiv"></div>
+<form>
+<div id="divId">
+<table>
+<tr>
+<td><label>Userid</label></td>
+<td><input type="text" id="userid" name="userid">
+</tr>
+<tr>
+<td><label>Password</label></td>
+<td><input type="password" id="pwd" name="pwd">
+</tr>
+<tr>
+<td><button id="getBt">Login</button></td>
+<td><input type="reset" value="reset"></td>
+</tr>
+</table>
+</div>
+</form>
+<script type="text/javascript" src="../js/jquery/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="../js/ajax.js"></script>
+
+</body>
+</html>
